@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 # a Bash script that sets up your web servers for the deployment of web_static
 
-string = "<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+string='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is a fake website</title></head><body><div>
     <h1>Hello... This is a fake website.</h1><style>
-    body {background-color: beige;}</style></div></body></html>"
+    body {
+        background-color: beige;
+        }
+        </style></div></body></html>'
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
